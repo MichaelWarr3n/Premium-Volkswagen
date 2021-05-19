@@ -384,7 +384,7 @@ h3.text-on-right {
 }
 
 .contact-preferance {
-    width: 80%;
+    width: 50%;
     justify-content: space-between;
 }
 
@@ -401,11 +401,15 @@ h3.text-on-right {
     display: none;
 }
 
+.text-field-l {
+    width: 300px;
+}
+
 .contact-preferance-options {
     display: flex;
     justify-content: space-between;
-    width: 30%;
-    margin-left: 20px;
+    width: 40%;
+    margin-left: 40px;
 }
 
 /*---------- FOOTER STYLING ----------*/
@@ -457,6 +461,10 @@ li > h2 {
 
     .flex-break-sm {
         display: block;
+    }
+
+    .contact-preferance {
+        width: 60%;
     }
 }
 
@@ -584,6 +592,20 @@ li > h2 {
     h3.text-on-right {
         margin-right: 20px;
     }
+
+    /*---------- CONTACT STYLING ----------*/
+
+    .contact-preferance {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 725px){
+
+    .contact-preferance {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 620px) {
@@ -628,6 +650,12 @@ li > h2 {
     .scroll-down-arrow {
         width: 14vw;
         left: 43vw;
+    }
+
+    /*---------- CONTACT STYLING ----------*/
+
+    .btn-fill {
+        width: 100%;
     }
 
     /*---------- FOOTER STYLING ----------*/

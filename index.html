@@ -204,48 +204,35 @@
       <div class="d-flex justify-content-center">
         <form class="d-flex flex-wrap align-items-center interest-register">
           <label for="first-name">First name:</label>
-          <input type="text" id="first-name" name="first-name" class="flex-fill" required>
+          <input type="text" id="first-name" name="first-name" class="text-field" required>
           <div class="flex-break flex-break-sm"></div>
           <label for="last-name">Last name:</label>
-          <input type="text" id="last-name" name="last-name" class="flex-fill" required>
+          <input type="text" id="last-name" name="last-name" class="text-field" required>
           <div class="flex-break"></div>
           <label for="email-address">Email address:</label>
-          <input type="text" id="email-address" name="email-address" class="flex-fill" required>
+          <input type="text" id="email-address" name="email-address" class="text-field-l" required>
           <div class="flex-break"></div>
           <label for="contact-number">Contact number:</label>
-          <input type="text" id="contact-number" name="contact-number" class="flex-fill" required>
+          <input type="text" id="contact-number" name="contact-number" class="text-field" required>
           <div class="flex-break"></div>
           <div class="contact-preferance d-flex my-2 flex-wrap align-items-center">
             <h4>I would rather be contacted by</h4>
             <div class="flex-break flex-break-xs"></div>
             <div class="contact-preferance-options align-items-center">
-              <div class="my-2">
+              <div class="my-4">
                 <input type="radio" id="phone" name="primary-contact-method" value="phone" required>
-                <label for="phone">Phone</label>
+                <label for="phone">Text</label>
               </div>
-              <div class="my-2">
+              <div class="my-4">
                 <input type="radio" id="email" name="primary-contact-method" value="email" required>
                 <label for="email">Email</label>
               </div>
             </div>
           </div>
           <div class="flex-break"></div>
-          <div class="contact-preferance d-flex my-2 flex-wrap align-items-center">
-            <h4>Can we send your details to third parties?</h4>
-            <div class="flex-break flex-break-xs"></div>
-            <div class="contact-preferance-options align-items-center">
-              <div class="my-2">
-                <input type="radio" id="yes-one" name="details-to-third-party" value="yes-one" required>
-                <label for="yes-one">Yes</label>
-              </div>
-              <div class="my-2">
-                <input type="radio" id="yes-two" name="details-to-third-party" value="yes-two" required>
-                <label for="yes-two">Yes</label>
-              </div>
-            </div>
+          <div class="d-flex flex-fill">
+            <input type="submit" value="Submit" class="btn btn-primary btn-fill mb-5 mr-1 px-5">
           </div>
-          <div class="flex-break"></div>
-          <input type="submit" value="Submit" class="btn btn-primary flex-fill mb-5">
         </form>
       </div>
     </div>
